@@ -1,0 +1,15 @@
+image: node:10
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - yarn install
+
+format:
+  script:
+    - yarn format
+lint:
+  script:
+    - yarn lint

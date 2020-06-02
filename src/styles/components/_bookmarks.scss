@@ -1,0 +1,61 @@
+.bookmarks {
+  
+}
+
+.bookmarks-content {
+
+}
+
+.bookmarks-title {
+  padding: 0 10px;
+  color: #282828;
+  margin-bottom: 20px;
+}
+
+.bookmarks-list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.bookmarks-card {
+  width: 50%;
+  position: relative;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.bookmarks-img {
+  display: block;
+  max-width: 100%;
+}
+
+.bookmarks-text {
+  display: block;
+  padding: 20px;
+  background-color: #51b736;
+  text-transform: uppercase;
+  text-align: center;
+  @include transition;
+}
+
+.bookmarks-card:hover .bookmarks-text {
+  background-color: #212121;
+}
+
+.bookmarks-status {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 10px;
+  background-color: #b73636;
+  opacity: 50%;
+  @include transition;
+}
+
+.bookmarks-status {
+  &:hover {
+    opacity: 100%;
+  }
+}

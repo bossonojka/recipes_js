@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Recipes</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo link-none" href="/">
+            <h1 class="title logo-title">Recipes</h1>
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/#" class="nav-link link-home link-none">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/#bookmarks" class="nav-link link-bookmarks link link-none">Bookmarks</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="scrollbar">
+        <div class="scrollbar-status"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section media">
+        <div class="container">
+          <div class="app"></div>
+          <div class="overlay" hidden></div>
+            <div class="modal container-modal" hidden>
+              <div class="modal-form">
+                <input class="modal-control modal-id" type="hidden" name="id">
+                <input class="modal-control modal-name" type="text" placeholder="Name" name="name">
+                <input class="modal-control modal-description" type="text" placeholder="Description" name="description">
+                <input class="modal-control modal-image" type="text" placeholder="Image" name="image">
+              </div>
+              <input class="modal-btn modal-add btn" type="button" value="Add ingridient">
+              <input class="modal-btn modal-submit btn" type="button" value="Submit">
+              <i class="material-icons modal-close">clear</i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo link-none" href="/">
+        <span class="title logo-title logo-footer">Recipes © 2020</span>
+      </a>
+    </footer>
+  </body>
+</html>

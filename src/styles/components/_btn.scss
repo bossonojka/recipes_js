@@ -1,0 +1,19 @@
+.btn {
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    @include transition;
+    background-color: #212121;
+    text-transform: uppercase;
+}
+
+.btn {
+    &:hover {
+        background-color: #51b736;
+    }
+}
+
+.btn-add-card {
+    width: 100%;
+    padding: 20px 0;
+}

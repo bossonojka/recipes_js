@@ -1,0 +1,57 @@
+.info {
+  width: 40%;
+  height: 100%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 20px;
+}
+
+.info-content {
+  background-color: #282828;
+  position: relative;
+}
+
+.info-img {
+  width: 100%;
+  display: block;
+}
+
+.info-text {
+  padding: 40px;
+}
+
+.info-title {
+  display: block;
+}
+
+.info-description {
+  display: block;
+  margin: 20px 0;
+}
+
+.info-suptitle {
+
+}
+
+.info-ingridients {
+  margin-top: 10px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-button {
+  width: 100%;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.info-bookmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-control {
+    padding: 10px;
+    width: 100%;
+}
+
+.modal-ingridient {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.modal-add {
+    &:hover {
+        background-color: rgb(211, 144, 21);
+    }
+}
+
+.modal-remove {
+    padding: 10px;
+    margin-left: 10px;
+    
+    &:hover {
+        background-color: #b73636;
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    color: #fff;
+    cursor: pointer;
+}

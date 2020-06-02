@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+}
+  
+.nav-list {
+    flex-grow: 1;
+}
+
+.nav-item {
+    display: inline-block;
+
+    &:last-child {
+        padding-right: 0;
+    }
+}
+
+.nav-btn {
+    padding: 10px;
+}
+
+.nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    color: $whiteColor;
+  }

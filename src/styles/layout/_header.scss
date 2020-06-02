@@ -1,0 +1,8 @@
+.header {
+    background-color: #51b736;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    @include transition;
+}
